@@ -1,0 +1,20 @@
+[package]
+name = "toa-ping"
+version = "0.2.0"
+authors = ["Douman <douman@gmx.se>"]
+categories = ["command-line-utilities"]
+description = "Kawaii ping tool"
+
+homepage = "https://github.com/DoumanAsh/toa/ping"
+repository = "https://github.com/DoumanAsh/toa/ping"
+
+readme = "README.md"
+keywords = ["find"]
+license = "Apache-2.0"
+
+[dependencies]
+socket2 = "^0"
+lazy_static = "^0"
+
+[dependencies.common]
+path = "../common"

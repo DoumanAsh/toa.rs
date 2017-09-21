@@ -1,0 +1,20 @@
+[package]
+name = "toa-find"
+version = "0.2.0"
+authors = ["Douman <douman@gmx.se>"]
+categories = ["command-line-utilities"]
+description = "Kawaii GNU find replacement"
+
+homepage = "https://github.com/DoumanAsh/toa/find"
+repository = "https://github.com/DoumanAsh/toa/find"
+
+readme = "README.md"
+keywords = ["find"]
+license = "Apache-2.0"
+
+[dependencies]
+regex = "^0.2"
+walkdir = "^1"
+
+[dependencies.common]
+path = "../common"

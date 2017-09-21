@@ -1,0 +1,9 @@
+[workspace]
+members = [
+    "common",
+    "find",
+    "ping"
+]
+
+[profile.release]
+lto = true
