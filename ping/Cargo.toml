@@ -16,5 +16,8 @@ license = "Apache-2.0"
 socket2 = "^0"
 lazy_static = "^0"
 
+[target."cfg(unix)".dependencies]
+libc = "^0"
+
 [dependencies.common]
 path = "../common"
